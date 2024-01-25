@@ -1,0 +1,29 @@
+
+
+.body{
+    background-color: grey;
+    margin: 10px;
+}
+p,h1,h2,img{
+    margin:10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container>div:nth-child(1n){
+    background-color: gray;
+}
+.container>div:nth-child(2n){
+    background-color: blanchedalmond;
+}
+.container>div:nth-child(3n){
+    background-color: whitesmoke;
+}
+img{
+        max-width: 300px;
+        height: auto;
+        border-radius: 50%;
+        display: flex;
+        justify-content:  center;
+}
+img:hover{
+    cursor: pointer;
+}
